@@ -1,0 +1,13 @@
+.carousel-item1{
+    display: flex;
+}
+.carousel-item1:nth-child(odd) div{
+ height: 90vh;
+}
+.carousel-item1:nth-child(odd) div div{
+  align-self: flex-start;
+ }
+
+.carousel-item1:nth-child(even) div {
+    align-self: flex-end;
+}
